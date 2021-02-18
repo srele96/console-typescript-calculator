@@ -1,0 +1,16 @@
+{
+  "name": "ts-node",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node --es-module-specifier-resolution=node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.28",
+    "typescript": "^4.1.5"
+  }
+}

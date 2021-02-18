@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES2015",
+    "strict": true,
+    "outDir": "build",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "noUnusedParameters": true
+  },
+  "include": ["src"]
+}
